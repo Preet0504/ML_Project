@@ -100,16 +100,21 @@ The trained ML model is exposed through a **backend API**, which is consumed by 
 
 ```
 .
-├── data/
+├── api/
+├── artifacts/
 ├── notebooks/
-│   └── eda.ipynb
+│   └── data/
+│   └── EDA STUDENT PERFORMANCE.ipynb
+│   └── MODEL_TRAINING.ipynb
 ├── src/
 │   ├── components/
 │   ├── pipeline/
-│   └── utils/
-├── models/
-├── app/
-├── frontend/
+│   ├── exception.py
+│   ├── logger.py
+│   ├── utils.py
+├── templates/
+├── app.py
+├── requirements.txt
 └── pyproject.toml
 ```
 
@@ -118,8 +123,8 @@ The trained ML model is exposed through a **backend API**, which is consumed by 
 ## 🚀 How to Run
 
 ```bash
-python src/pipeline/training_pipeline.py
-python app/api.py
+pip -r install requirements.txt
+python app.py
 ```
 
 ---
