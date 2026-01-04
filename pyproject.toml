@@ -2,14 +2,14 @@
 name = "end-to-end-ml-pipeline"
 version = "0.1.0"
 dependencies = [
-    "flask"
-    "pandas"
-    "numpy"
-    "seaborn"
-    "matplotlib"
-    "scikit-learn"
-    "catboost"
-    "xgboost"
-    "dill"
+    "flask",
+    "pandas",
+    "numpy",
+    "seaborn",
+    "matplotlib",
+    "scikit-learn",
+    "catboost",
+    "xgboost",
+    "dill",
     "gunicorn"
 ]
